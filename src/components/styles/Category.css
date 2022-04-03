@@ -1,0 +1,33 @@
+.Category {
+  margin: 6rem 6rem 0 6rem;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 160%;
+}
+
+.product-display {
+  height: fit-content;
+  width: fit-content;
+  padding: 0.5rem 0.5rem 1rem 0.5rem;
+  border: 1px solid black;
+}
+
+.product-img {
+  height: 20rem;
+  width: 20rem;
+  border: 1px solid black;
+}
+
+.product-name {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 160%;
+  margin-top: 1.5rem;
+}
+
+.product-price {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  margin-top: 0.4rem;
+}

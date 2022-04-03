@@ -1,0 +1,14 @@
+.CurrencySwitcher {
+  position: absolute;
+  width: 114px;
+  height: 169px;
+  left: 89.4rem;
+  top: 5rem;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+}
+
+.currency {
+  margin-bottom: 1rem;
+}
