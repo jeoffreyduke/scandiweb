@@ -1,1 +1,1 @@
-Scandiweb Assessment by Jeoffrey Duke:
+Scandiweb Assessment by Jeoffrey Duke
