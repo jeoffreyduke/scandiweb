@@ -5,17 +5,38 @@
   line-height: 160%;
 }
 
+.category-con {
+  position: relative;
+  left: 7rem;
+}
+
+.product-con {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  width: 85vw;
+}
+
+.link {
+  color: #1d1f22;
+  text-decoration: none;
+}
+
 .product-display {
   height: fit-content;
   width: fit-content;
   padding: 0.5rem 0.5rem 1rem 0.5rem;
-  border: 1px solid black;
+  margin-right: 0.5rem;
 }
 
 .product-img {
   height: 20rem;
   width: 20rem;
-  border: 1px solid black;
+}
+
+.product-img > img {
+  height: inherit;
+  width: inherit;
 }
 
 .product-name {

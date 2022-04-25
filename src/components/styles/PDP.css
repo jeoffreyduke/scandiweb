@@ -3,13 +3,20 @@
   padding-top: 3rem;
   margin-top: 8rem;
   margin: 6rem;
+  min-height: 100vh;
 }
 
 .small-imgs {
-  height: 6.5rem;
-  width: 6rem;
+  display: block;
+  height: 5rem;
+  width: 5rem;
   margin-right: 1rem;
-  border: 1px solid #1d1f22;
+}
+
+.small-imgs > img {
+  height: inherit;
+  width: inherit;
+  margin-bottom: 0.35rem;
 }
 
 .big-img {
@@ -17,7 +24,11 @@
   width: 35rem;
   margin-right: 6rem;
   margin-left: 2rem;
-  border: 1px solid #1d1f22;
+}
+
+.big-img > img {
+  height: inherit;
+  width: inherit;
 }
 
 .desc {
@@ -48,23 +59,23 @@
   margin-bottom: 1rem;
 }
 
-.pdp-mid,
-.pdp-small {
+.item-con {
   display: inline-block;
-  height: 0.5rem;
-  width: 0.5rem;
+  position: relative;
+  right: 2rem;
+}
+
+.pdp-mid {
+  display: inline-block;
   font-family: "Source Sans Pro";
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
   text-align: center;
-  border: 1px solid #1d1f22;
-  padding: 2rem;
+  justify-content: center;
+  padding: 1rem;
   margin-bottom: 1rem;
-}
-
-.pdp-mid {
-  margin-left: 1rem;
+  border: 1px solid #1d1f22;
 }
 
 .pdp-price {
