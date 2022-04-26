@@ -61,7 +61,8 @@
   margin-bottom: 0.5rem;
 }
 
-.ov-item-sizes {
+.ov-item-sizes,
+.attr-con {
   display: inline-block;
 }
 

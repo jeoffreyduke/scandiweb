@@ -52,6 +52,10 @@ export class CartOverlay extends Component {
     return totalPrice;
   }
 
+  componentDidUpdate() {
+    console.log(this.props.cartData);
+  }
+
   render() {
     let tempTotalPrice = 0;
     return (
@@ -79,35 +83,33 @@ export class CartOverlay extends Component {
                   }
                 </div>
 
-                <div className="ov-attr-label">
-                  {
-                    products.product.data.attributes[
-                      products.product.attributeData.map((attr) => {
-                        return attr.selectedIndex;
-                      }) && 0
-                    ].name
-                  }
-                </div>
-                {products.product.data?.attributes[
-                  products.product.attributeData.map((attr) => {
-                    return attr.selectedIndex;
-                  }) && 0
-                ].items.map((item) => {
+                {products.product.attributeData.map((data) => {
                   return (
-                    <div
-                      key={Math.random() + item.id}
-                      className="ov-item-sizes"
-                    >
-                      <div
-                        className="ov-mid"
-                        style={{
-                          borderColor: item.value,
-                          backgroundColor: item.value,
-                          color: item.value,
-                        }}
-                      >
-                        {item.value.includes("#") ? "" : item.value}
-                      </div>
+                    <div key={Math.random() + data.name + "jes"}>
+                      <div className="ov-attr-label">{data.name}</div>
+                      {products.product.data.attributes[
+                        data.selectedIndex
+                      ].items.map((item) => {
+                        return (
+                          <div
+                            key={Math.random() + item.name + "jas"}
+                            className="attr-con"
+                          >
+                            <div className="ov-item-sizes">
+                              <div
+                                className="ov-mid"
+                                style={{
+                                  borderColor: item.value,
+                                  backgroundColor: item.value,
+                                  color: item.value,
+                                }}
+                              >
+                                {item.value.includes("#") ? "" : item.value}
+                              </div>
+                            </div>
+                          </div>
+                        );
+                      })}
                     </div>
                   );
                 })}

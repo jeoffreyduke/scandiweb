@@ -48,32 +48,33 @@ export class Product extends Component {
           </div>
 
           <div className="item-con">
-            <div>
-              {
-                this.props.productAttr[
-                  this.props.productAttrData?.map((attr) => {
-                    return attr.selectedIndex;
-                  }) && 0
-                ].name
-              }
-            </div>
-            {this.props.productAttr[
-              this.props.productAttrData?.map((attr) => {
-                return attr.selectedIndex;
-              }) && 0
-            ].items.map((item) => {
+            {this.props.productAttrData.map((data) => {
               return (
-                <div key={Math.random() * 2 + item.id} className="item-sizes">
-                  <div
-                    className="mid"
-                    style={{
-                      borderColor: item.value,
-                      backgroundColor: item.value,
-                      color: item.value,
-                    }}
-                  >
-                    {item.value.includes("#") ? "" : item.value}
-                  </div>
+                <div key={Math.random() + data.name + "jes"}>
+                  <div className="ov-attr-label">{data.name}</div>
+                  {this.props.productAttr[data.selectedIndex].items.map(
+                    (item) => {
+                      return (
+                        <div
+                          key={Math.random() + item.name + "jas"}
+                          className="attr-con"
+                        >
+                          <div className="ov-item-sizes">
+                            <div
+                              className="ov-mid"
+                              style={{
+                                borderColor: item.value,
+                                backgroundColor: item.value,
+                                color: item.value,
+                              }}
+                            >
+                              {item.value.includes("#") ? "" : item.value}
+                            </div>
+                          </div>
+                        </div>
+                      );
+                    }
+                  )}
                 </div>
               );
             })}
