@@ -101,6 +101,7 @@ export class CartOverlay extends Component {
                       <div
                         className="ov-mid"
                         style={{
+                          borderColor: item.value,
                           backgroundColor: item.value,
                           color: item.value,
                         }}

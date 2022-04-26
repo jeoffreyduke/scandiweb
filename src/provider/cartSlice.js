@@ -22,7 +22,6 @@ export const cartSlice = createSlice({
   initialState: {
     totalItemQuantity: 0,
     products: [],
-    cartMenuOpen: false,
   },
   reducers: {
     addIntoCart: (state, action) => {
@@ -108,7 +107,7 @@ export const cartSlice = createSlice({
             newId = id.build();
             return {
               name: attrItem.name,
-              selectedIndex: action.payload.idx,
+              selectedIndex: action.payload.index,
             };
           }
           return current(attrItem);
@@ -128,7 +127,6 @@ export const cartSlice = createSlice({
       });
 
       if (state.products.find((item) => item.id === newId)) {
-        // old state has that item now merge these items
         let newQuantity = 0;
         const newProductsMerged = current(state)
           .products.filter((item) => {
@@ -149,7 +147,6 @@ export const cartSlice = createSlice({
           products: newProductsMerged,
         };
       }
-      // just leave this, it will change id for the product
       return {
         ...state,
         products: newProducts,

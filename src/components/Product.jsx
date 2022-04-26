@@ -67,6 +67,7 @@ export class Product extends Component {
                   <div
                     className="mid"
                     style={{
+                      borderColor: item.value,
                       backgroundColor: item.value,
                       color: item.value,
                     }}
