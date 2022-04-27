@@ -78,6 +78,11 @@
   border: 1px solid #1d1f22;
 }
 
+.pdp-mid:hover {
+  color: #fff;
+  background-color: #000;
+}
+
 .pdp-price {
   font-weight: 700;
   font-size: 24px;
