@@ -50,13 +50,13 @@ export class Product extends Component {
           <div className="item-con">
             {this.props.productAttrData.map((data) => {
               return (
-                <div key={Math.random() + data.name + "jes"}>
+                <div key={Math.random() + data.name + "jess"}>
                   <div className="ov-attr-label">{data.name}</div>
                   {this.props.productAttr[data.selectedIndex].items.map(
                     (item) => {
                       return (
                         <div
-                          key={Math.random() + item.name + "jas"}
+                          key={Math.random() + data.name + "jass"}
                           className="attr-con"
                         >
                           <div className="ov-item-sizes">

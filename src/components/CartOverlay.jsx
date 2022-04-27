@@ -92,7 +92,7 @@ export class CartOverlay extends Component {
                       ].items.map((item) => {
                         return (
                           <div
-                            key={Math.random() + item.name + "jas"}
+                            key={Math.random() + data.name + "jas"}
                             className="attr-con"
                           >
                             <div className="ov-item-sizes">
