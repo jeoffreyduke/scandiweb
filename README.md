@@ -7,4 +7,4 @@ Scandiweb Assessment by Jeoffrey Duke:
 ![Screenshot 2022-04-25 at 21-51-13 Scandiweb Store](https://user-images.githubusercontent.com/85391775/165172990-2749d1f1-ab58-4201-843a-de7e2cdea587.png)
 
 
-Thanks for this experiential opportunity, Scandiweb. Love You! 
+Thanks for this experiential opportunity, Scandiweb. Much love! 
