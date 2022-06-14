@@ -52,9 +52,22 @@ class Category extends Component {
                   <div key={product.id}>
                     <Link to="/product-display" end="true" className="link">
                       <div
-                        className="product-display"
+                        className={
+                          !product.inStock
+                            ? "product-display overlay"
+                            : "product-display"
+                        }
                         onClick={() => this.displayProduct(product)}
                       >
+                        <p
+                          className={
+                            !product.inStock
+                              ? "product-ol ol-display"
+                              : "product-ol"
+                          }
+                        >
+                          OUT OF STOCK
+                        </p>
                         <div className="product-img">
                           <img src={product.gallery[0]} alt="img" />
                         </div>

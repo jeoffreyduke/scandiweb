@@ -204,6 +204,7 @@ export class App extends Component {
             </div>
           </div>
         </header>
+
         <Routes>
           <Route exact path="/" element={<Category />} />
           <Route exact path="/product-display" element={<ProductDisplay />} />

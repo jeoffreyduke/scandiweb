@@ -34,6 +34,7 @@ class ProductDisplay extends Component {
     super(props);
     this.state = {
       selectedAttributes: [],
+      imageSrc: this.props.productData.gallery[0],
     };
     this.handleAddToCart = this.handleAddToCart.bind(this);
   }
@@ -78,13 +79,20 @@ class ProductDisplay extends Component {
         <div className="small-imgs-con">
           <div className="small-imgs">
             {this.props.productData.gallery.map((pic) => {
-              return <img key={Math.random()} src={pic} alt="img" />;
+              return (
+                <img
+                  key={Math.random()}
+                  src={pic}
+                  alt="img"
+                  onClick={() => this.setState({ imageSrc: pic })}
+                />
+              );
             })}
           </div>
         </div>
 
         <div className="big-img">
-          <img src={this.props.productData.gallery[0]} alt="img" />
+          <img src={this.state.imageSrc} alt="img" />
         </div>
         <div className="desc">
           <div className="pdp-brand">{this.props.productById.brand}</div>
@@ -130,8 +138,12 @@ class ProductDisplay extends Component {
                   },
                 })
               }
+              className={this.props.productById.inStock ? "" : "nostock"}
+              disabled={!this.props.productById.inStock}
             >
-              ADD TO CART
+              {this.props.productById.inStock
+                ? "ADD TO CART"
+                : "ITEM NOT IN STOCK"}
             </button>
           </div>
           <div

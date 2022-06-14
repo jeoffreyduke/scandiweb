@@ -15,6 +15,7 @@ export const FETCH_ALL_DATA = gql`
         id
         name
         gallery
+        inStock
       }
     }
     currencies {

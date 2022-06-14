@@ -93,7 +93,6 @@
 
 .pdp-price > span {
   font-family: "Roboto Condensed";
-  display: block;
   font-weight: 700;
   font-size: 18px;
   line-height: 18px;
@@ -110,6 +109,11 @@
   height: 52px;
   width: 21.5rem;
   border: none;
+}
+
+.nostock {
+  background-color: #a4a4a4 !important;
+  cursor: not-allowed;
 }
 
 .pdp-desc {

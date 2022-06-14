@@ -52,7 +52,7 @@ export class Product extends Component {
               return (
                 <div key={Math.random() + data.name + "jess"}>
                   <div className="ov-attr-label">{data.name}</div>
-                  {this.props.productAttr[data.selectedIndex].items.map(
+                  {this.props.productAttr[data.selectedIndex ?? 0].items.map(
                     (item) => {
                       return (
                         <div

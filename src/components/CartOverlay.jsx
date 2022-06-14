@@ -52,10 +52,6 @@ export class CartOverlay extends Component {
     return totalPrice;
   }
 
-  componentDidUpdate() {
-    console.log(this.props.cartData);
-  }
-
   render() {
     let tempTotalPrice = 0;
     return (
@@ -88,7 +84,7 @@ export class CartOverlay extends Component {
                     <div key={Math.random() + data.name + "jes"}>
                       <div className="ov-attr-label">{data.name}</div>
                       {products.product.data.attributes[
-                        data.selectedIndex
+                        data.selectedIndex ?? 0
                       ].items.map((item) => {
                         return (
                           <div
