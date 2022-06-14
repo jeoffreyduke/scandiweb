@@ -1,10 +1,10 @@
 Scandiweb Assessment by Jeoffrey Duke:
 
-![Screenshot 2022-04-25 at 21-48-33 Scandiweb Store](https://user-images.githubusercontent.com/85391775/165172899-c858f5da-4713-4158-abc3-97f1cb52a2df.png)
-![Screenshot 2022-04-25 at 21-49-01 Scandiweb Store](https://user-images.githubusercontent.com/85391775/165172928-d35f57db-3f1a-4ca8-9c30-0b287aee033e.png)
-![Screenshot 2022-04-25 at 21-49-22 Scandiweb Store](https://user-images.githubusercontent.com/85391775/165172952-da6874cf-44ff-4ad6-b21b-0210ed22b004.png)
-![Screenshot 2022-04-25 at 21-50-38 Scandiweb Store](https://user-images.githubusercontent.com/85391775/165172970-7c1d9196-8b89-41ee-a5e1-3ddbd11b9a0a.png)
-![Screenshot 2022-04-25 at 21-51-13 Scandiweb Store](https://user-images.githubusercontent.com/85391775/165172990-2749d1f1-ab58-4201-843a-de7e2cdea587.png)
-
+![Screenshot 2022-06-14 at 12-32-32 Scandiweb Store](https://user-images.githubusercontent.com/85391775/173568317-8452355b-1fb1-4a58-ba2b-bdcd6ac2ecd8.png)
+![Screenshot 2022-06-14 at 12-34-06 Scandiweb Store](https://user-images.githubusercontent.com/85391775/173568349-346221f8-606b-4c07-9a00-fa1119f2df27.png)
+![Screenshot 2022-06-14 at 12-32-54 Scandiweb Store](https://user-images.githubusercontent.com/85391775/173568383-b99d9250-dd26-45a1-b5b6-5e86f9e137d6.png)
+![Screenshot 2022-06-14 at 12-33-24 Scandiweb Store](https://user-images.githubusercontent.com/85391775/173568390-ac3a6822-c77f-4de6-a499-e4832d4d4407.png)
+![Screenshot 2022-06-14 at 12-34-48 Scandiweb Store](https://user-images.githubusercontent.com/85391775/173568421-668f5e51-0eb8-4427-8596-8e2e2b11c87e.png)
+![Screenshot 2022-06-14 at 12-35-22 Scandiweb Store](https://user-images.githubusercontent.com/85391775/173568427-14ff5270-1e0d-4d59-9c73-953fbeed9ebb.png)
 
 Thanks for this experiential opportunity, Scandiweb. Much love! 
