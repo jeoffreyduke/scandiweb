@@ -1,0 +1,125 @@
+.PDP {
+  display: flex;
+  padding-top: 3rem;
+  margin-top: 8rem;
+  margin: 6rem;
+  min-height: 100vh;
+}
+
+.small-imgs {
+  display: block;
+  height: 5rem;
+  width: 5rem;
+  margin-right: 1rem;
+}
+
+.small-imgs > img {
+  height: inherit;
+  width: inherit;
+  margin-bottom: 0.35rem;
+}
+
+.big-img {
+  height: 38rem;
+  width: 35rem;
+  margin-right: 6rem;
+  margin-left: 2rem;
+}
+
+.big-img > img {
+  height: inherit;
+  width: inherit;
+}
+
+.desc {
+  width: 22rem;
+}
+
+.pdp-brand {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 27px;
+  margin-bottom: 1rem;
+}
+
+.pdp-name {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 27px;
+  margin-bottom: 3rem;
+}
+
+.pdp-sizes > span {
+  display: block;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  margin-bottom: 1rem;
+}
+
+.item-con {
+  display: inline-block;
+  position: relative;
+  right: 2rem;
+}
+
+.pdp-mid {
+  display: inline-block;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  justify-content: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #1d1f22;
+}
+
+.pdp-mid:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.pdp-price {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 18px;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.pdp-price > span {
+  font-family: "Roboto Condensed";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  margin-bottom: 1rem;
+}
+
+.pdp-btn {
+  margin-top: 2.5rem;
+}
+
+.pdp-btn > button {
+  color: #fff;
+  background-color: #5ece7b;
+  height: 52px;
+  width: 21.5rem;
+  border: none;
+}
+
+.nostock {
+  background-color: #a4a4a4 !important;
+  cursor: not-allowed;
+}
+
+.pdp-desc {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 159.96%;
+  margin-top: 2.5rem;
+}

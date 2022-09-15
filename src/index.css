@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: "Raleway";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+  color: #1d1f22;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: local("Raleway"),
+    url("../public/assets/fonts/Raleway/Raleway-VariableFont_wght.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: local("Source Sans Pro"),
+    url("../public/assets/fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: local("Roboto Condensed"),
+    url("../public/assets/fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf")
+      format("truetype");
+}

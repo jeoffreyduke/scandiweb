@@ -1,0 +1,28 @@
+.CurrencySwitcher {
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  left: 89.4rem;
+  top: 5rem;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  display: none;
+  z-index: 100;
+  background-color: #fff;
+  padding: 1rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.active {
+  display: block !important;
+}
+
+.currency {
+  margin-bottom: 1rem;
+}
+
+.currency:active,
+.currency:hover {
+  background-color: #e5e5e5;
+}

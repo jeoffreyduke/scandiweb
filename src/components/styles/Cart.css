@@ -1,0 +1,128 @@
+.Cart {
+  margin: 6rem;
+}
+
+.Cart > p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  border-top: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.item-brand {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 27px;
+  padding-bottom: 1rem;
+}
+
+.item-name {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 27px;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.item-price {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 18px;
+  padding-bottom: 1rem;
+}
+
+.item-con {
+  margin-left: 2rem;
+}
+
+.item-sizes {
+  display: inline-block;
+}
+
+.mid {
+  height: 24px;
+  min-width: 24px;
+  width: fit-content;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  border: 1px solid #1d1f22;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+}
+
+.item-rep {
+  display: flex;
+}
+
+.amount-inc {
+  font-size: 2.5rem;
+  font-weight: 200;
+  border: 1px solid #1d1f22;
+  padding: 0rem 0.8rem;
+}
+
+.item-amount {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 160%;
+  text-align: center;
+  margin: 0.55rem;
+}
+
+.amount-dec {
+  font-size: 2.5rem;
+  font-weight: 200;
+  border: 1px solid #1d1f22;
+  padding: 0rem 0.8rem;
+}
+
+.item-img {
+  height: 9.5rem;
+  width: 8rem;
+  margin-left: 0.5rem;
+}
+
+.item-img > img {
+  height: inherit;
+  width: inherit;
+}
+
+.extras {
+  margin-top: 1.5rem;
+}
+
+.qty {
+  margin-top: 0.5rem;
+}
+
+.total {
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.total > strong {
+  margin-left: 0.5rem;
+}
+
+.order-btn {
+  width: 279px;
+  height: 43px;
+  color: #fff;
+  background-color: #5ece7b;
+  border: none;
+  margin-top: 0.8rem;
+}

@@ -1,0 +1,96 @@
+.active {
+  background-color: rgba(57, 55, 72, 0.22);
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100vw;
+  justify-content: space-evenly;
+  z-index: 1000;
+}
+
+nav {
+  width: 12rem;
+  position: relative;
+  top: 1rem;
+  right: 16.5rem;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav > ul > li {
+  margin-right: 1rem;
+}
+
+.tech > div,
+.clothes > div,
+.all > div {
+  position: relative;
+  top: 1.5rem;
+  right: 0.3rem;
+  width: 2.5rem;
+  border: 1px solid transparent;
+}
+
+.clothes > div {
+  width: 5rem !important;
+}
+
+.tech > div {
+  width: 3.5rem !important;
+}
+
+.green {
+  color: #5ece7b;
+}
+
+.green > div {
+  border-color: #5ece7b;
+}
+
+.brand-logo {
+  position: relative;
+  top: 1.5rem;
+  right: 3.5rem;
+}
+
+.cart-div {
+  display: flex;
+  width: 5rem;
+  justify-content: space-between;
+  position: relative;
+  top: 1.5rem;
+  left: 14rem;
+}
+
+.cart {
+  position: relative;
+  top: 0.3rem;
+}
+
+.cart-size {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+  width: 1rem;
+  position: relative;
+  left: 2.1rem;
+  bottom: 0.2rem;
+  color: #fff;
+  background-color: #000;
+  border-radius: 100%;
+  border: 1px solid #000;
+  z-index: 10001;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.1rem;
+}
