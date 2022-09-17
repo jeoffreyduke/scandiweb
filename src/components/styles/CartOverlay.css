@@ -143,3 +143,10 @@
   background-color: #5ece7b;
   border: none;
 }
+
+/* media queries max width 1400 */
+@media (max-width: 1400px) {
+  .CartOverlay {
+    left: 59rem;
+  }
+}

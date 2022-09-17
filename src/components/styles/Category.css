@@ -70,3 +70,13 @@
   line-height: 160%;
   margin-top: 0.4rem;
 }
+
+/* media queries max width 1400 */
+@media (max-width: 1400px) {
+  .category-con {
+    left: 0;
+  }
+  .product-con {
+    width: 100vw;
+  }
+}
