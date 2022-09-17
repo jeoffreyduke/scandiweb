@@ -28,6 +28,7 @@ nav > ul {
 
 nav > ul > li {
   margin-right: 1rem;
+  cursor: pointer;
 }
 
 .tech > div,
@@ -74,6 +75,11 @@ nav > ul > li {
 .cart {
   position: relative;
   top: 0.3rem;
+}
+
+.cart,
+.dollar {
+  cursor: pointer;
 }
 
 .cart-size {
